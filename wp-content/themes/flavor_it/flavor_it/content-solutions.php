@@ -13,9 +13,10 @@ $solution_desc          = get_field('solution_desc');
         <div class="text-center">
             <ul class="portfolio-filter">
                 <li><a class="active" href="#" data-filter="*">All Solutions</a></li>
-                <li><a href="#" data-filter=".networks">Networking & Infrastructure</a></li>
-                <li><a href="#" data-filter=".software-licenses ">Software Licenses </a></li>
-                <li><a href="#" data-filter=".hardware-products">Hardware products</a></li>
+                <?php $loop = new WP_Query(array("post_type" => "solutions_cat", "orderby" => "post_id", "order" => "ASC"));
+                while ($loop->have_posts()) : $loop->the_post();?>
+                <li><a href="#" data-filter=".<?php the_field('solutions_categories');?>"><?php the_title();?></a></li>
+                <?php endwhile;  wp_reset_query();?>
             </ul><!--/#portfolio-filter-->
         </div>
 
