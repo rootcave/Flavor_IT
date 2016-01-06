@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="page-home.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page-home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/page-home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.5636363">
-              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.28301886">
+              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
               <folding>
                 <element signature="e#6#38#0#PHP" expanded="true" />
               </folding>
@@ -64,12 +64,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content-solutions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="content-solutions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-solutions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54382825">
+            <state vertical-scroll-proportion="-11.692307">
               <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.9433963">
+              <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+              <folding>
+                <element signature="e#6#269#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content-info.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-info.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.730769">
+              <caret line="21" column="88" selection-start-line="21" selection-start-column="88" selection-end-line="21" selection-end-column="88" />
+              <folding>
+                <marker date="1452105232257" expanded="true" signature="741:858" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,7 +117,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/page_home.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-funfact.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-mainslider.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-about.php" />
@@ -105,8 +128,10 @@
         <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-services.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-testimonial.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-team.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/page-home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-solutions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-info.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/page-home.php" />
       </list>
     </option>
   </component>
@@ -120,8 +145,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="37" />
-    <option name="width" value="1169" />
+    <option name="x" value="46" />
+    <option name="y" value="14" />
+    <option name="width" value="1207" />
     <option name="height" value="748" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -275,10 +301,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="0" width="1169" height="748" extended-state="0" />
+    <frame x="46" y="14" width="1207" height="748" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.160451" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16540723" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -457,16 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6341465">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-          <folding>
-            <element signature="e#6#269#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.9636364">
@@ -539,16 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/page-home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5636363">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding>
-            <element signature="e#6#38#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-touch.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.8461537">
@@ -573,11 +579,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.9433963">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+          <folding>
+            <element signature="e#6#269#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="21" column="88" selection-start-line="21" selection-start-column="88" selection-end-line="21" selection-end-column="88" />
+          <folding>
+            <marker date="1452105232257" expanded="true" signature="741:858" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-solutions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54382825">
+        <state vertical-scroll-proportion="-11.692307">
           <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/page-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28301886">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <element signature="e#6#38#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

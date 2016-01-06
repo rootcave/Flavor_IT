@@ -25,6 +25,17 @@
 	<link href="<?php bloginfo('stylesheet_directory');?>/assets/css/prettyPhoto.css" rel="stylesheet">
 	<link href="<?php bloginfo('stylesheet_directory');?>/assets/css/responsive.css" rel="stylesheet">
 	<link href="<?php bloginfo('stylesheet_directory');?>/assets/css/timeline.css" rel="stylesheet">
+	<script src="<?php bloginfo('stylesheet_directory');?>/assets/js/jquery.js"></script>
+	<script src="<?php bloginfo('stylesheet_directory');?>/assets/js/bootstrap.min.js"></script>
+	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script src="<?php bloginfo('stylesheet_directory');?>/assets/js/owl.carousel.min.js"></script>
+	<script src="<?php bloginfo('stylesheet_directory');?>/assets/js/mousescroll.js"></script>
+	<script src="<?php bloginfo('stylesheet_directory');?>/assets/js/smoothscroll.js"></script>
+	<script src="<?php bloginfo('stylesheet_directory');?>/assets/js/jquery.prettyPhoto.js"></script>
+	<script src="<?php bloginfo('stylesheet_directory');?>/assets/js/jquery.isotope.min.js"></script>
+	<script src="<?php bloginfo('stylesheet_directory');?>/assets/js/jquery.inview.min.js"></script>
+	<script src="<?php bloginfo('stylesheet_directory');?>/assets/js/wow.min.js"></script>
+	<script src="<?php bloginfo('stylesheet_directory');?>/assets/js/main.js"></script>
 	<?php wp_head(); ?>
 </head>
 
