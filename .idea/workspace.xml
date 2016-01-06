@@ -22,144 +22,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.461538">
-              <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="page-home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/page-home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2245283">
-              <caret line="828" column="0" selection-start-line="828" selection-start-column="0" selection-end-line="828" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.28867924">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="49" />
               <folding>
                 <element signature="e#6#38#0#PHP" expanded="true" />
-                <element signature="e#2762#4528#0#HTML" expanded="false" />
-                <element signature="e#2854#2908#0#HTML" expanded="true" />
-                <element signature="e#3677#3731#0#HTML" expanded="true" />
-                <element signature="e#5579#8596#0#HTML" expanded="false" />
-                <element signature="e#7201#8547#0#HTML" expanded="false" />
-                <element signature="e#13174#14231#0#HTML" expanded="false" />
-                <element signature="e#14273#15344#0#HTML" expanded="false" />
-                <element signature="e#16990#18047#0#HTML" expanded="false" />
-                <element signature="e#19640#20696#0#HTML" expanded="false" />
-                <element signature="e#48249#50278#0#HTML" expanded="false" />
-                <marker date="1452087423165" expanded="false" signature="4583:5548" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="4615:5533" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="4656:4890" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="5113:5518" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="5160:5468" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="5254:5445" placeholder="..." />
-                <marker date="1452087423165" expanded="false" signature="5598:6067" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="5630:6067" placeholder="..." />
-                <marker date="1452087423165" expanded="false" signature="5672:5877" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="5908:6067" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="5965:6067" placeholder="..." />
-                <marker date="1452087423165" expanded="false" signature="6132:7063" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="6179:6584" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="6228:6553" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="6632:7036" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="6681:7005" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="7238:7340" placeholder="..." />
-                <marker date="1452087423165" expanded="false" signature="7405:8425" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="7452:7886" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="7501:7855" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="7934:8398" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="7983:8367" placeholder="..." />
-                <marker date="1452087423165" expanded="false" signature="50397:51744" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="50430:51711" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="50472:50724" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="50755:51684" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="50794:51665" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="51100:51586" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="51156:51559" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="51208:51385" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="51438:51528" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="51791:53356" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="51823:53323" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="51864:52118" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="52157:52650" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="52203:52606" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="52693:53308" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="52748:53266" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="52803:53243" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="52995:53216" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="53403:54353" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="53436:54324" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="53477:53725" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="53791:54292" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="54095:54255" placeholder="..." />
-                <marker date="1452087423165" expanded="false" signature="54395:55330" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="54428:55301" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="54469:54719" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="54782:55273" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="55194:55220" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="55395:57583" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="55427:57568" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="55457:57553" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="55512:57534" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="55621:57511" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="55741:56736" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="56114:56658" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="56822:57484" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="56946:57139" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="57263:57453" placeholder="..." />
-                <marker date="1452087423165" expanded="false" signature="57638:57987" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="57670:57972" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="57711:57957" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="58037:60129" placeholder="..." />
-                <marker date="1452087423165" expanded="false" signature="58075:58087" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="58186:60114" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="58222:60099" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="58256:60080" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="58315:60057" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="58366:60030" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="58455:58881" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="58985:59999" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="59042:59198" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="59255:59414" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="59471:59633" placeholder="..." />
-                <marker date="1452087423165" expanded="true" signature="59690:59863" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/functions.php">
+      <file leaf-file-name="content-clients.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-clients.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.923077">
-              <caret line="38" column="36" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="36" />
+            <state vertical-scroll-proportion="-6.2363634">
+              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/footer.php">
+      <file leaf-file-name="content-facts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-facts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.9636364">
-              <caret line="43" column="69" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="69" />
-              <folding>
-                <element signature="e#6#243#0#PHP" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-6.490909">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/header.php">
+      <file leaf-file-name="content-main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6341465">
-              <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-              <folding>
-                <element signature="e#6#269#0#PHP" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-9.072727">
+              <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content-solutions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-solutions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content-touch.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-touch.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.8461537">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -174,6 +94,18 @@
         <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/page_home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-funfact.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-mainslider.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-about.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-main.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-touch.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-clients.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-facts.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-partners.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-services.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-solutions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-testimonial.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-team.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/page-home.php" />
       </list>
     </option>
@@ -188,8 +120,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="60" />
-    <option name="width" value="1161" />
+    <option name="x" value="59" />
+    <option name="y" value="63" />
+    <option name="width" value="1169" />
     <option name="height" value="748" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -295,70 +228,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wordpress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wordpress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flavor_it" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flavor_it" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wordpress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wordpress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flavor_it" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flavor_it" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -407,10 +276,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="60" y="0" width="1161" height="748" extended-state="0" />
+    <frame x="59" y="63" width="1169" height="748" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15021834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.160451" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -467,7 +336,7 @@
           <line>20</line>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -617,98 +486,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/page-home.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.576923">
+          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-clients.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.2363634">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-facts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.490909">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-testimonial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2">
+          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-touch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-team.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2245283">
-          <caret line="828" column="0" selection-start-line="828" selection-start-column="0" selection-end-line="828" selection-end-column="0" />
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="e#1004#1113#0#PHP" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#3;n#div#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="e#38216#39849#0#PHP" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#section#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6792453">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-partners.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6735849">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.072727">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-solutions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/page-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28867924">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="49" />
           <folding>
             <element signature="e#6#38#0#PHP" expanded="true" />
-            <element signature="e#2762#4528#0#HTML" expanded="false" />
-            <element signature="e#2854#2908#0#HTML" expanded="true" />
-            <element signature="e#3677#3731#0#HTML" expanded="true" />
-            <element signature="e#5579#8596#0#HTML" expanded="false" />
-            <element signature="e#7201#8547#0#HTML" expanded="false" />
-            <element signature="e#13174#14231#0#HTML" expanded="false" />
-            <element signature="e#14273#15344#0#HTML" expanded="false" />
-            <element signature="e#16990#18047#0#HTML" expanded="false" />
-            <element signature="e#19640#20696#0#HTML" expanded="false" />
-            <element signature="e#48249#50278#0#HTML" expanded="false" />
-            <marker date="1452087423165" expanded="false" signature="4583:5548" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="4615:5533" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="4656:4890" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="5113:5518" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="5160:5468" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="5254:5445" placeholder="..." />
-            <marker date="1452087423165" expanded="false" signature="5598:6067" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="5630:6067" placeholder="..." />
-            <marker date="1452087423165" expanded="false" signature="5672:5877" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="5908:6067" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="5965:6067" placeholder="..." />
-            <marker date="1452087423165" expanded="false" signature="6132:7063" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="6179:6584" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="6228:6553" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="6632:7036" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="6681:7005" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="7238:7340" placeholder="..." />
-            <marker date="1452087423165" expanded="false" signature="7405:8425" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="7452:7886" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="7501:7855" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="7934:8398" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="7983:8367" placeholder="..." />
-            <marker date="1452087423165" expanded="false" signature="50397:51744" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="50430:51711" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="50472:50724" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="50755:51684" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="50794:51665" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="51100:51586" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="51156:51559" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="51208:51385" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="51438:51528" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="51791:53356" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="51823:53323" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="51864:52118" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="52157:52650" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="52203:52606" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="52693:53308" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="52748:53266" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="52803:53243" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="52995:53216" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="53403:54353" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="53436:54324" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="53477:53725" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="53791:54292" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="54095:54255" placeholder="..." />
-            <marker date="1452087423165" expanded="false" signature="54395:55330" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="54428:55301" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="54469:54719" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="54782:55273" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="55194:55220" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="55395:57583" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="55427:57568" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="55457:57553" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="55512:57534" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="55621:57511" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="55741:56736" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="56114:56658" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="56822:57484" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="56946:57139" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="57263:57453" placeholder="..." />
-            <marker date="1452087423165" expanded="false" signature="57638:57987" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="57670:57972" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="57711:57957" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="58037:60129" placeholder="..." />
-            <marker date="1452087423165" expanded="false" signature="58075:58087" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="58186:60114" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="58222:60099" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="58256:60080" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="58315:60057" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="58366:60030" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="58455:58881" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="58985:59999" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="59042:59198" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="59255:59414" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="59471:59633" placeholder="..." />
-            <marker date="1452087423165" expanded="true" signature="59690:59863" placeholder="..." />
           </folding>
         </state>
       </provider>
