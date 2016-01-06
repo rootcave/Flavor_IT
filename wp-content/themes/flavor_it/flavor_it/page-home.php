@@ -49,6 +49,8 @@ $partner_title          = get_field('partner_title');
 $partner_desc           = get_field('partner_desc');
 //Announcements
 $announcements_title    = get_field(16,'announcements_title', true);
+// history
+$history_title    = get_field(16,'history_title', true);
 //fun facts
 $fact_title             = get_field('fact_title');
 $fact_desc              = get_field('fact_desc');
@@ -211,7 +213,7 @@ get_header();?>
 
 
                 <div class="col-sm-6">
-                    <h3 class="column-title">Our History</h3>
+                    <h3 class="column-title"><?php echo $history_title; ?></h3>
                     <div role="tabpanel">
                         <ul class="nav main-tab nav-justified" role="tablist">
                             <li role="presentation" class="active">
@@ -259,7 +261,7 @@ get_header();?>
                                                         <ul class="timeline-panel-ul">
                                                             <li><span class="importo">Mussum ipsum cacilds</span></li>
                                                             <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                            <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2 days</small></p> </li>
+                                                            <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 6 days</small></p> </li>
                                                         </ul>
                                                     </div>
 
@@ -324,7 +326,7 @@ get_header();?>
                                         </div>
 
 
-                                    </div>
+                                </div>
                                     <div class="row timeline-movement">
 
 
@@ -787,20 +789,31 @@ get_header();?>
                     <h3 class="column-title"><?php echo $announcements_title;?></h3>
                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                     <?php $loop = new WP_Query(array("post_type" => "announcement", "orderby" => "post_id", "order" => "ASC"));
+                    $ann_count=1;
+                    $bool_var;
+                    $in_var;
                     while ($loop->have_posts()) : $loop->the_post(); ?>
                         <?php
                             $collapseVar = "collapse".get_the_title();
                             $headingVar = 'heading'.get_the_title();
+                            if($ann_count == 1){
+                                $bool_var = "true";
+                                $in_var = "in";
+                                $ann_count = $ann_count +1;
+                            }else {
+                                $bool_var = "false";
+                                $in_var = "";
+                            }
                         ?>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="<?php echo $headingVar;?>">
                                 <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#<?php echo $collapseVar;?>" aria-expanded="false" aria-controls="<?php echo $collapseVar;?>">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#<?php echo $collapseVar;?>" aria-expanded="<?php echo $bool_var;?>" aria-controls="<?php echo $collapseVar;?>">
                                         <?php the_content();?>
                                     </a>
                                 </h4>
                             </div>
-                            <div id="<?php echo $collapseVar;?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="<?php echo $headingVar;?>">
+                            <div id="<?php echo $collapseVar;?>" class="panel-collapse collapse <?php echo $in_var;?>" role="tabpanel" aria-labelledby="<?php echo $headingVar;?>">
                                 <div class="panel-body">
                                     <?php the_excerpt();?>
                                 </div>
@@ -860,12 +873,13 @@ get_header();?>
             </div>
 
             <div class="portfolio-items">
-                <div class="portfolio-item networks">
+                <div class="portfolio-item networks ">
                     <div class="portfolio-item-inner">
                         <img class="img-responsive" src="<?php bloginfo('stylesheet_directory');?>/assets/images/portfolio/01.jpg" alt="">
                         <div class="portfolio-info">
+                            <?php $values = get_post_custom_values('solutions_categories');?>
                             <h3>CISCO</h3>
-                            Lorem Ipsum Dolor Sit
+                            <?php echo $values[0];?>
                         </div>
                     </div>
                 </div><!--/.portfolio-item-->
