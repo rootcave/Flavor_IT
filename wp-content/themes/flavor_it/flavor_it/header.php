@@ -17,6 +17,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<title>IT Flavor | Even It has it's own flavor</title>
 <!--Bootstrap core css-->
 	<link href="<?php bloginfo('stylesheet_directory');?>/assets/css/bootstrap.min.css" rel="stylesheet">
 	<link href="<?php bloginfo('stylesheet_directory');?>/assets/css/font-awesome.min.css" rel="stylesheet">
@@ -39,7 +40,7 @@
 	<script src="<?php bloginfo('stylesheet_directory');?>/assets/js/main.js"></script>
 	<?php wp_head(); ?>
 </head>
-
+<body id="home" class="homepage">
 <header id="header">
 	<nav id="main-menu" class="navbar navbar-default navbar-fixed-top" role="banner">
 		<div class="container">
