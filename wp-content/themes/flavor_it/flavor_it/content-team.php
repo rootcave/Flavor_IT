@@ -16,9 +16,10 @@ $history_title    = get_field('history_title');
 
         <div class="row">
             <?php $loop = new WP_Query(array("post_type" => "member", "orderby" => "post_id", "order" => "ASC"));
+            $timeTeam = 0;
             while ($loop->have_posts()) : $loop->the_post();?>
                 <div class="col-sm-6 col-md-3">
-                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="<?php echo $timeTeam;?>ms">
                         <div class="team-img">
                             <?php if(has_post_thumbnail()){
                                 the_post_thumbnail();
@@ -36,6 +37,7 @@ $history_title    = get_field('history_title');
                         </ul>
                     </div>
                 </div>
+                <?php $timeTeam = $timeTeam + 100; ?>
             <?php endwhile; wp_reset_query(); ?>
         </div>
 
@@ -48,19 +50,19 @@ $history_title    = get_field('history_title');
                 <h3 class="column-title"><?php echo $history_title; ?></h3>
                 <div role="tabpanel">
                     <ul class="nav main-tab nav-justified" role="tablist">
-                        <li role="presentation" class="active">
-                            <a href="#tab1" role="tab" data-toggle="tab" aria-controls="tab1" aria-expanded="true">2011</a>
-
-                        </li>
-                        <li role="presentation">
-                            <a href="#tab2" role="tab" data-toggle="tab" aria-controls="tab2" aria-expanded="false">2012</a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#tab3" role="tab" data-toggle="tab" aria-controls="tab3" aria-expanded="false">2013</a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#tab4" role="tab" data-toggle="tab" aria-controls="tab4" aria-expanded="false">2014</a>
-                        </li>
+                        <?php $loop = new WP_Query(array("post_type" => "history_year", "orderby" => "post_id", "order" => "ASC"));
+                        $count = 1;
+                        $bool = true;
+                        while ($loop->have_posts()) : $loop->the_post();
+                           if($count == 1) {?>
+                                <li role="presentation" class="active">
+                            <?php }else{?>
+                                <li role="presentation">
+                            <?php $bool = false; };?>
+                                    <a href="#tab<?php echo $count?>" role="tab" data-toggle="tab" aria-controls="tab<?php echo $count?>" aria-expanded="<?php echo $bool?>"><?php the_title();?></a>
+                                </li>
+                            <?php  $count = $count+1 ;?>
+                        <?php endwhile; wp_reset_query();?>
                     </ul>
                     <div id="tab-content" class="tab-content">
                         <div role="tabpanel" class="tab-pane fade active in" id="tab1" aria-labelledby="tab1">
@@ -93,7 +95,7 @@ $history_title    = get_field('history_title');
                                                     <ul class="timeline-panel-ul">
                                                         <li><span class="importo">Mussum ipsum cacilds</span></li>
                                                         <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 6 days</small></p> </li>
+                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2 days</small></p> </li>
                                                     </ul>
                                                 </div>
 
