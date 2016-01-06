@@ -36,16 +36,5 @@
 	</div>
 </footer><!--/#footer-->
 
-<script src="<?php bloginfo('template_directory');?>/assets/js/jquery.js"></script>
-<script src="<?php bloginfo('template_directory');?>/assets/js/bootstrap.min.js"></script>
-<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-<script src="<?php bloginfo('template_directory');?>/assets/js/owl.carousel.min.js"></script>
-<script src="<?php bloginfo('template_directory');?>/assets/js/mousescroll.js"></script>
-<script src="<?php bloginfo('template_directory');?>/assets/js/smoothscroll.js"></script>
-<script src="<?php bloginfo('template_directory');?>/assets/js/jquery.prettyPhoto.js"></script>
-<script src="<?php bloginfo('template_directory');?>/assets/js/jquery.isotope.min.js"></script>
-<script src="<?php bloginfo('template_directory');?>/assets/js/jquery.inview.min.js"></script>
-<script src="<?php bloginfo('template_directory');?>/assets/js/wow.min.js"></script>
-
 </body>
 </html>
