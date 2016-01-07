@@ -56,16 +56,23 @@ $history_title    = get_field('history_title');
                         while ($loop->have_posts()) : $loop->the_post();
                            if($count == 1) {?>
                                 <li role="presentation" class="active">
-                            <?php }else{?>
+                            <?php $count = $count+1;}else{?>
                                 <li role="presentation">
                             <?php $bool = false; };?>
-                                    <a href="#tab<?php echo $count?>" role="tab" data-toggle="tab" aria-controls="tab<?php echo $count?>" aria-expanded="<?php echo $bool?>"><?php the_title();?></a>
+                                    <a href="#tab<?php the_title();?>" role="tab" data-toggle="tab" aria-controls="tab<?php the_title();?>" aria-expanded="<?php echo $bool?>"><?php the_title();?></a>
                                 </li>
-                            <?php  $count = $count+1 ;?>
                         <?php endwhile; wp_reset_query();?>
                     </ul>
                     <div id="tab-content" class="tab-content">
-                        <div role="tabpanel" class="tab-pane fade active in" id="tab1" aria-labelledby="tab1">
+                        <?php $loop = new WP_Query(array("post_type" => "history_year", "orderby" => "post_id", "order" => "ASC"));
+                        $count = 1;
+                        while ($loop->have_posts()) : $loop->the_post();
+                        $history_year_title = get_the_title();
+                        if($count == 1) {?>
+                        <div role="tabpanel" class="tab-pane fade active in" id="tab<?php the_title();?>" aria-labelledby="tab<?php the_title();?>">
+                        <?php $count = $count +1;}else{?>
+                        <div role="tabpanel" class="tab-pane fade" id="tab<?php the_title();?>" aria-labelledby="tab<?php the_title();?>">
+                        <?php }?>
                             <!--Start Timeline -->
                             <div class="timeline"><div class="row timeline-movement timeline-movement-top">
                                     <div class="timeline-badge timeline-future-movement">
@@ -79,546 +86,62 @@ $history_title    = get_field('history_title');
                                         </a>
                                     </div>
 
-                                </div>
-                                <div class="row timeline-movement">
+                            </div>
 
-                                    <div class="timeline-badge">
-                                        <span class="timeline-balloon-date-day">18</span>
-                                        <span class="timeline-balloon-date-month">APR</span>
-                                    </div>
-
-
-                                    <div class="col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-11">
-                                                <div class="timeline-panel credits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2 days</small></p> </li>
-                                                    </ul>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-offset-1 col-sm-11">
-                                                <div class="timeline-panel debits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1 day</small></p> </li>
-                                                    </ul>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--due -->
-
+                            <?php
+                            $nestedloop = new WP_Query(array("post_type" => "history", "meta_key"=>"history_years", "meta_value"=>"$history_year_title", "orderby" => "post_id", "order" => "DESC"));
+                            while ($nestedloop->have_posts()) : $nestedloop->the_post();?>
                                 <div class="row timeline-movement">
 
 
                                     <div class="timeline-badge">
-                                        <span class="timeline-balloon-date-day">13</span>
-                                        <span class="timeline-balloon-date-month">APR</span>
+                                        <span class="timeline-balloon-date-day"><?php the_field('date_day');?></span>
+                                        <span class="timeline-balloon-date-month"><?php the_field('date_month');?></span>
                                     </div>
-
-                                    <div class="col-sm-offset-6 col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-offset-1 col-sm-11">
-                                                <div class="timeline-panel debits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 5 days</small></p> </li>
-                                                    </ul>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-11">
-                                                <div class="timeline-panel credits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2 days</small></p> </li>
-                                                    </ul>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                                <div class="row timeline-movement">
-
-
                                     <div class="timeline-badge">
-                                        <span class="timeline-balloon-date-day">10</span>
-                                        <span class="timeline-balloon-date-month">APR</span>
+                                        <span class="timeline-balloon-date-day"><?php the_field('date_day');?></span>
+                                        <span class="timeline-balloon-date-month"><?php the_field('date_month');?></span>
                                     </div>
+                                    <?php if(get_the_title()== "credits"){ ?>
+                                        <div class="col-sm-6  timeline-item">
+                                            <div class="row">
+                                                <div class="col-sm-11">
+                                                    <div class="timeline-panel credits">
+                                                        <ul class="timeline-panel-ul">
+                                                            <li><span class="importo"><?php the_field('memory_title');?></span></li>
+                                                            <li><span class="causale"><?php the_field('memory_desc');?></span> </li>
+                                                            <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i><?php the_field('days_count')?></small></p> </li>
+                                                        </ul>
+                                                    </div>
 
-                                    <div class="col-sm-offset-6 col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-offset-1 col-sm-11">
-                                                <div class="timeline-panel debits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1 day</small></p> </li>
-                                                    </ul>
                                                 </div>
-
                                             </div>
                                         </div>
-                                    </div>
+                                    <?php }else{ ?>
+                                        <div class="col-sm-offset-6 col-sm-6  timeline-item">
+                                            <div class="row">
+                                                <div class="col-sm-offset-1 col-sm-11">
+                                                    <div class="timeline-panel debits">
+                                                        <ul class="timeline-panel-ul">
+                                                            <li><span class="importo"><?php  the_field('memory_title');?></span></li>
+                                                            <li><span class="causale"><?php  the_field('memory_desc');?></span> </li>
+                                                            <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i><?php the_field('days_count')?></small></p> </li>
+                                                        </ul>
+                                                    </div>
 
-                                    <div class="col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-11">
-                                                <div class="timeline-panel credits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1 day</small></p> </li>
-                                                    </ul>
                                                 </div>
-
                                             </div>
                                         </div>
-                                    </div>
-
-
+                                    <?php } ?>
                                 </div>
+                            <?php endwhile; //wp_reset_query();?>
                             </div> <!--End Timeline -->
 
                         </div>
-                        <div role="tabpanel" class="tab-pane fade" id="tab2" aria-labelledby="tab2">
-                            <!--Start Timeline -->
-                            <div class="timeline"><div class="row timeline-movement timeline-movement-top">
-                                    <div class="timeline-badge timeline-future-movement">
-                                        <a href="#">
-                                            <span class="glyphicon glyphicon-plus"></span>
-                                        </a>
-                                    </div>
-                                    <div class="timeline-badge timeline-filter-movement">
-                                        <a href="#">
-                                            <span class="glyphicon glyphicon-time"></span>
-                                        </a>
-                                    </div>
-
-                                </div>
-                                <div class="row timeline-movement">
-
-                                    <div class="timeline-badge">
-                                        <span class="timeline-balloon-date-day">18</span>
-                                        <span class="timeline-balloon-date-month">APR</span>
-                                    </div>
-
-
-                                    <div class="col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-11">
-                                                <div class="timeline-panel credits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2 days</small></p> </li>
-                                                    </ul>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-offset-1 col-sm-11">
-                                                <div class="timeline-panel debits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1 day</small></p> </li>
-                                                    </ul>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--due -->
-
-                                <div class="row timeline-movement">
-
-
-                                    <div class="timeline-badge">
-                                        <span class="timeline-balloon-date-day">13</span>
-                                        <span class="timeline-balloon-date-month">APR</span>
-                                    </div>
-
-                                    <div class="col-sm-offset-6 col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-offset-1 col-sm-11">
-                                                <div class="timeline-panel debits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 5 days</small></p> </li>
-                                                    </ul>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-11">
-                                                <div class="timeline-panel credits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2 days</small></p> </li>
-                                                    </ul>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                                <div class="row timeline-movement">
-
-
-                                    <div class="timeline-badge">
-                                        <span class="timeline-balloon-date-day">10</span>
-                                        <span class="timeline-balloon-date-month">APR</span>
-                                    </div>
-
-                                    <div class="col-sm-offset-6 col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-offset-1 col-sm-11">
-                                                <div class="timeline-panel debits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1 day</small></p> </li>
-                                                    </ul>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-11">
-                                                <div class="timeline-panel credits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1 day</small></p> </li>
-                                                    </ul>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                            </div> <!--End Timeline --> </div>
-                        <div role="tabpanel" class="tab-pane fade" id="tab3" aria-labelledby="tab3">
-                            <!--Start Timeline -->
-                            <div class="timeline"><div class="row timeline-movement timeline-movement-top">
-                                    <div class="timeline-badge timeline-future-movement">
-                                        <a href="#">
-                                            <span class="glyphicon glyphicon-plus"></span>
-                                        </a>
-                                    </div>
-                                    <div class="timeline-badge timeline-filter-movement">
-                                        <a href="#">
-                                            <span class="glyphicon glyphicon-time"></span>
-                                        </a>
-                                    </div>
-
-                                </div>
-                                <div class="row timeline-movement">
-
-                                    <div class="timeline-badge">
-                                        <span class="timeline-balloon-date-day">18</span>
-                                        <span class="timeline-balloon-date-month">APR</span>
-                                    </div>
-
-
-                                    <div class="col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-11">
-                                                <div class="timeline-panel credits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2 days</small></p> </li>
-                                                    </ul>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-offset-1 col-sm-11">
-                                                <div class="timeline-panel debits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1 day</small></p> </li>
-                                                    </ul>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--due -->
-
-                                <div class="row timeline-movement">
-
-
-                                    <div class="timeline-badge">
-                                        <span class="timeline-balloon-date-day">13</span>
-                                        <span class="timeline-balloon-date-month">APR</span>
-                                    </div>
-
-                                    <div class="col-sm-offset-6 col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-offset-1 col-sm-11">
-                                                <div class="timeline-panel debits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 5 days</small></p> </li>
-                                                    </ul>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-11">
-                                                <div class="timeline-panel credits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2 days</small></p> </li>
-                                                    </ul>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                                <div class="row timeline-movement">
-
-
-                                    <div class="timeline-badge">
-                                        <span class="timeline-balloon-date-day">10</span>
-                                        <span class="timeline-balloon-date-month">APR</span>
-                                    </div>
-
-                                    <div class="col-sm-offset-6 col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-offset-1 col-sm-11">
-                                                <div class="timeline-panel debits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1 day</small></p> </li>
-                                                    </ul>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-11">
-                                                <div class="timeline-panel credits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1 day</small></p> </li>
-                                                    </ul>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                            </div> <!--End Timeline -->  </div>
-                        <div role="tabpanel" class="tab-pane fade" id="tab4" aria-labelledby="tab3">
-                            <!--Start Timeline -->
-                            <div class="timeline"><div class="row timeline-movement timeline-movement-top">
-                                    <div class="timeline-badge timeline-future-movement">
-                                        <a href="#">
-                                            <span class="glyphicon glyphicon-plus"></span>
-                                        </a>
-                                    </div>
-                                    <div class="timeline-badge timeline-filter-movement">
-                                        <a href="#">
-                                            <span class="glyphicon glyphicon-time"></span>
-                                        </a>
-                                    </div>
-
-                                </div>
-                                <div class="row timeline-movement">
-
-                                    <div class="timeline-badge">
-                                        <span class="timeline-balloon-date-day">18</span>
-                                        <span class="timeline-balloon-date-month">APR</span>
-                                    </div>
-
-
-                                    <div class="col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-11">
-                                                <div class="timeline-panel credits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2 days</small></p> </li>
-                                                    </ul>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-offset-1 col-sm-11">
-                                                <div class="timeline-panel debits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1 day</small></p> </li>
-                                                    </ul>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--due -->
-
-                                <div class="row timeline-movement">
-
-
-                                    <div class="timeline-badge">
-                                        <span class="timeline-balloon-date-day">13</span>
-                                        <span class="timeline-balloon-date-month">APR</span>
-                                    </div>
-
-                                    <div class="col-sm-offset-6 col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-offset-1 col-sm-11">
-                                                <div class="timeline-panel debits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 5 days</small></p> </li>
-                                                    </ul>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-11">
-                                                <div class="timeline-panel credits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2 days</small></p> </li>
-                                                    </ul>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                                <div class="row timeline-movement">
-
-
-                                    <div class="timeline-badge">
-                                        <span class="timeline-balloon-date-day">10</span>
-                                        <span class="timeline-balloon-date-month">APR</span>
-                                    </div>
-
-                                    <div class="col-sm-offset-6 col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-offset-1 col-sm-11">
-                                                <div class="timeline-panel debits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1 day</small></p> </li>
-                                                    </ul>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6  timeline-item">
-                                        <div class="row">
-                                            <div class="col-sm-11">
-                                                <div class="timeline-panel credits">
-                                                    <ul class="timeline-panel-ul">
-                                                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1 day</small></p> </li>
-                                                    </ul>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                            </div> <!--End Timeline -->  </div>
+                        <?php endwhile; wp_reset_query();?>
                     </div>
                 </div>
             </div>
-
             <div class="col-sm-6">
                 <h3 class="column-title"><?php echo $announcements_title;?></h3>
                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
