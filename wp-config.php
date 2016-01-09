@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'flavor_it');
+define('DB_NAME', 'rc_itflavor');
 
 /** MySQL database username */
 define('DB_USER', 'flavor_it_admin');
