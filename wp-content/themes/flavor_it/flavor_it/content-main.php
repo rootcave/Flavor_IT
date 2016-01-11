@@ -5,11 +5,9 @@ $first_desc             = get_post_meta(16, 'first_desc', true);
 $second_title           = get_post_meta(16, 'second_title', true);
 $second_desc            = get_post_meta(16, 'second_desc', true);
 $website_name           = get_post_meta(16, 'website_name', true);
-$company_name           = get_post_meta(16, 'company_name', true);
+$company_name           = get_post_meta(16, 'producer_name', true);
 $more_first_desc_url    = get_post_meta(16, 'more_first_desc_url', true);
 $more_second_desc_url   = get_post_meta(16, 'more_second_desc_url', true);
-$img_url1               = bloginfo('stylesheet_directory'). "/assets/images/slider/bg1.jpg";
-$img_url2               = bloginfo('stylesheet_directory'). "/assets/images/slider/bg2.jpg";
 ?>
 <section id="main-slider">
     <div class="owl-carousel">

@@ -53,15 +53,6 @@
 				</button>
 				<a class="navbar-brand" href="index.html"><img src="<?php bloginfo('stylesheet_directory');?>/assets/images/logo.png" alt="logo"></a>
 			</div>
-			<?php
-			wp_nav_menu(array(
-							'theme_location'=> 'primary',
-							'container'=> 'nav',
-							'container-class'=> 'navbar-collapse collapse',
-							'menu-class'=> 'nav navbar-nav navbar-right'
-					)
-			)
-			?>
 			<div class="collapse navbar-collapse navbar-right">
 				<ul class="nav navbar-nav">
 					<li class="scroll active"><a href="#home">Home</a></li>
