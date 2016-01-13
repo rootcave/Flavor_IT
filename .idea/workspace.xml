@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3094b9b1-3dc3-4a38-90fb-7df880d32486" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-solutions.php" afterPath="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-solutions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-team.php" afterPath="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-team.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/footer.php" />
     </list>
     <ignored path="wordpress.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-solutions.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-12.153846">
-              <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+              <caret line="28" column="51" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -52,17 +52,27 @@
       <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075">
-              <caret line="28" column="39" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="39" />
+            <state vertical-scroll-proportion="-3.2692308">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="content-testimonial.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-testimonial.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.653847">
+              <caret line="27" column="50" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22279793">
+            <state vertical-scroll-proportion="-4.9615383">
               <caret line="18" column="106" selection-start-line="18" selection-start-column="106" selection-end-line="18" selection-end-column="106" />
               <folding />
             </state>
@@ -73,44 +83,20 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-team.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-11.807693">
-              <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
               <folding>
-                <element signature="e#9462#9779#0#PHP" expanded="false" />
+                <element signature="e#9448#9765#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.230769">
-              <caret line="53" column="12" selection-start-line="53" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7717391">
+              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="general-template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-              <folding>
-                <marker date="1452350254298" expanded="true" signature="51441:51623" placeholder="SELECT YEAR(..." />
-                <marker date="1452350254298" expanded="true" signature="52515:52650" placeholder="SELECT YEAR(..." />
-                <marker date="1452350254298" expanded="true" signature="53415:53659" placeholder="SELECT YEAR(..." />
-                <marker date="1452350254298" expanded="true" signature="54627:54865" placeholder="SELECT DISTI..." />
-                <marker date="1452350254298" expanded="true" signature="56307:56365" placeholder="SELECT * FRO..${$wpdb-&gt;posts}..." />
-                <marker date="1452350254298" expanded="true" signature="58668:58763" placeholder="SELECT 1 as ..${$wpdb-&gt;posts}..." />
-                <marker date="1452350254298" expanded="true" signature="60001:60215" placeholder="SELECT MONTH..." />
-                <marker date="1452350254298" expanded="true" signature="60244:60475" placeholder="SELECT MONTH..." />
-                <marker date="1452350254298" expanded="true" signature="60651:60792" placeholder="..." />
-                <marker date="1452350254298" expanded="true" signature="60786:60792" placeholder="..." />
-                <marker date="1452350254298" expanded="true" signature="61237:61243" placeholder="..." />
-                <marker date="1452350254298" expanded="true" signature="62046:62052" placeholder="..." />
-                <marker date="1452350254298" expanded="true" signature="62145:62380" placeholder="SELECT DISTI..${$wpdb-&gt;posts}..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -167,11 +153,12 @@
         <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/page-home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-services.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-facts.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-main.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-solutions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-team.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/footer.php" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-team.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-solutions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/header.php" />
       </list>
     </option>
   </component>
@@ -362,7 +349,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="0" width="1245" height="768" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3189585" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -525,7 +512,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="104" column="49" selection-start-line="104" selection-start-column="49" selection-end-line="104" selection-end-column="49" />
           <folding>
-            <element signature="e#9462#9779#0#PHP" expanded="false" />
+            <element signature="e#9448#9765#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -663,13 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-testimonial.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.1272726">
-          <caret line="27" column="50" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-services.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.884615">
@@ -790,14 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.230769">
-          <caret line="53" column="12" selection-start-line="53" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.8846154">
@@ -808,10 +780,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-solutions.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.153846">
-          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+        <state vertical-scroll-proportion="-4.9615383">
+          <caret line="18" column="106" selection-start-line="18" selection-start-column="106" selection-end-line="18" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-testimonial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.653847">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -819,25 +807,25 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-team.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.807693">
-          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
           <folding>
-            <element signature="e#9462#9779#0#PHP" expanded="false" />
+            <element signature="e#9448#9765#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/content-solutions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="39" />
+        <state vertical-scroll-proportion="-12.153846">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/footer.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/flavor_it/flavor_it/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22279793">
-          <caret line="18" column="106" selection-start-line="18" selection-start-column="106" selection-end-line="18" selection-end-column="106" />
+        <state vertical-scroll-proportion="0.7717391">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
           <folding />
         </state>
       </provider>

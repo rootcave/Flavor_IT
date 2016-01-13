@@ -22,7 +22,7 @@ $history_title    = get_field('history_title');
                     <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="<?php echo $timeTeam;?>ms">
                         <div class="team-img">
                             <?php if(has_post_thumbnail()){
-                                the_post_thumbnail(array(250,225));
+                                the_post_thumbnail();
                             }?>
                         </div>
                         <div class="team-info">
