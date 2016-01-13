@@ -26,7 +26,7 @@ $solution_desc          = get_field('solution_desc');
                 <div class="portfolio-item <?php the_field('solutions_categories');?>">
                     <div class="portfolio-item-inner">
                         <?php if(has_post_thumbnail())
-                        the_post_thumbnail(array(260,250));
+                        the_post_thumbnail(array(210,250));
                         ?>
                         <div class="portfolio-info">
                             <h3><?php the_title();?></h3>

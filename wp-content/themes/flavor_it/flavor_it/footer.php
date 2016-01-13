@@ -16,7 +16,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6">
-				&copy; 2015 IT Flavor LLC. Developed by <a target="_blank" href="http://rootcave.com" title="Root Cave">Root Cave</a>
+				&copy; 2015 IT Flavor LLC. Developed by <a target="_blank" href="http://www.it-flavor.com/" title="IT Flavor">IT Flavor</a>
 			</div>
 			<div class="col-sm-6">
 				<ul class="social-icons">
